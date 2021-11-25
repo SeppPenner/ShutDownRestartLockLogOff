@@ -2,7 +2,6 @@ ShutDownRestartLockLogOff
 ====================================
 
 ShutDownRestartLockLogOff is an executable to check how to shutdown, restart, lock or log off from Windows.
-The executable was written and tested in .Net 5.0.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/d4kk3i97489ni27l?svg=true)](https://ci.appveyor.com/project/SeppPenner/shutdownrestartlocklogoff)
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/ShutDownRestartLockLogOff.svg)](https://github.com/SeppPenner/ShutDownRestartLockLogOff/issues)
