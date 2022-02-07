@@ -11,7 +11,6 @@ namespace ShutDownRestartLockLogOff
 {
     using System;
     using System.Diagnostics;
-    using System.Diagnostics.CodeAnalysis;
     using System.Runtime.InteropServices;
     using System.Windows.Forms;
 
@@ -40,7 +39,6 @@ namespace ShutDownRestartLockLogOff
         /// <param name="uFlags">The flags.</param>
         /// <param name="dwReason">The reason.</param>
         /// <returns>A <see cref="bool"/> value indicating whether the exit process worked or not.</returns>
-        [SuppressMessage("StyleCop.CSharp.NamingRules", "SA1305:FieldNamesMustNotUseHungarianNotation", Justification = "Reviewed. Suppression is OK here.")]
         [DllImport("user32")]
         private static extern bool ExitWindowsEx(uint uFlags, uint dwReason);
 
